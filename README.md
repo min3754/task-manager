@@ -74,8 +74,34 @@ task-manager/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Option 1: Docker (Recommended for Quick Testing)
 
+The fastest way to get started is using Docker:
+
+**Prerequisites:**
+- Docker Desktop installed ([Download here](https://www.docker.com/products/docker-desktop))
+
+**Quick Start:**
+```bash
+# Clone the repository
+git clone https://github.com/min3754/task-manager.git
+cd task-manager
+
+# Start with Docker Compose
+docker-compose up -d
+
+# Access the application
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:5000
+```
+
+That's it! The application is ready to use.
+
+For detailed Docker instructions, see [DOCKER.md](DOCKER.md)
+
+### Option 2: Manual Installation
+
+**Prerequisites:**
 - Node.js (v16 or higher)
 - PostgreSQL (v12 or higher)
 - npm or yarn

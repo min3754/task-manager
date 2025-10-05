@@ -6,12 +6,13 @@ A complete, production-ready Task Manager application implementing all MVP requi
 
 ## 📊 Project Statistics
 
-- **Total Files**: 52 source files
-- **Lines of Code**: ~2,183 lines
+- **Total Files**: 62 source files (52 original + 10 Docker files)
+- **Lines of Code**: ~2,183 lines (application code)
 - **Backend Files**: 22 (Models, Controllers, Routes, Config)
 - **Frontend Files**: 20 (Components, Pages, Services, Styles)
-- **Documentation Files**: 10 (README, API, Guides)
-- **Technology Stack**: Node.js, Express, PostgreSQL, React, Vite
+- **Documentation Files**: 11 (README, API, Guides, Docker)
+- **Docker Files**: 10 (Dockerfiles, docker-compose, configs)
+- **Technology Stack**: Node.js, Express, PostgreSQL, React, Vite, Docker
 
 ## ✅ MVP Requirements Completion
 

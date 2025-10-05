@@ -1,14 +1,47 @@
 # Quick Start Guide
 
-Get the Task Manager up and running in 5 minutes!
+Get the Task Manager up and running in minutes!
 
-## Prerequisites
+## Choose Your Setup Method
 
+### 🐳 Option 1: Docker (Easiest - 2 Minutes)
+
+**Prerequisites:**
+- Docker Desktop installed ([Download here](https://www.docker.com/products/docker-desktop))
+
+**Steps:**
+```bash
+# 1. Clone the repository
+git clone https://github.com/min3754/task-manager.git
+cd task-manager
+
+# 2. Start everything with Docker Compose
+docker-compose up -d
+
+# 3. Access the application
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:5000
+```
+
+**That's it!** No need to install Node.js or PostgreSQL.
+
+To stop:
+```bash
+docker-compose down
+```
+
+For more Docker commands, see [DOCKER.md](DOCKER.md)
+
+---
+
+### 💻 Option 2: Manual Setup (5 Minutes)
+
+**Prerequisites:**
 - Node.js v16+ installed
 - PostgreSQL installed and running
 - Git installed
 
-## Step-by-Step Setup
+**Step-by-Step Setup**
 
 ### 1. Clone the Repository
 
