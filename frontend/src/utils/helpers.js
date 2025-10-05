@@ -1,6 +1,7 @@
 export const formatDate = (dateString) => {
   if (!dateString) return '';
   const date = new Date(dateString);
+  if (isNaN(date.getTime())) return '';
   return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
@@ -11,6 +12,7 @@ export const formatDate = (dateString) => {
 export const formatDateTime = (dateString) => {
   if (!dateString) return '';
   const date = new Date(dateString);
+  if (isNaN(date.getTime())) return '';
   return date.toLocaleString('en-US', {
     year: 'numeric',
     month: 'short',
