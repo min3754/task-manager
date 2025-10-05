@@ -83,7 +83,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Details
 
 #### Backend Stack
-- Node.js v16+
+- Node.js v18+
 - Express.js v4.18
 - PostgreSQL v12+
 - JWT for authentication

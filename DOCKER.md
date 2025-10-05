@@ -355,7 +355,7 @@ Docker uses layer caching. To maximize cache hits:
 
 Optimized image sizes:
 - PostgreSQL: ~230 MB (alpine)
-- Backend: ~150 MB (node:16-alpine + app)
+- Backend: ~150 MB (node:18-alpine + app)
 - Frontend: ~25 MB (nginx:alpine + static files)
 
 ## Security Considerations

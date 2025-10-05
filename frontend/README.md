@@ -2,8 +2,7 @@
 
 ## Prerequisites
 
-- Node.js v16 or higher
-- npm or yarn
+- Node.js v18+ installed
 - Running backend server (see backend/README.md)
 
 ## Installation Steps

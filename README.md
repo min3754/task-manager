@@ -102,7 +102,7 @@ For detailed Docker instructions, see [DOCKER.md](DOCKER.md)
 ### Option 2: Manual Installation
 
 **Prerequisites:**
-- Node.js (v16 or higher)
+- Node.js (v18 or higher)
 - PostgreSQL (v12 or higher)
 - npm or yarn
 

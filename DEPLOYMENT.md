@@ -4,7 +4,7 @@ This guide covers deployment options for the Task Manager application.
 
 ## Prerequisites
 
-- Node.js v16 or higher
+- Node.js v18 or higher
 - PostgreSQL v12 or higher
 - Domain name (for production)
 - SSL certificate (for production)

@@ -37,7 +37,7 @@ For more Docker commands, see [DOCKER.md](DOCKER.md)
 ### 💻 Option 2: Manual Setup (5 Minutes)
 
 **Prerequisites:**
-- Node.js v16+ installed
+- Node.js v18+ installed
 - PostgreSQL installed and running
 - Git installed
 
